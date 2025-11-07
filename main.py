@@ -80,7 +80,6 @@ def main():
                        "3. Exit\nEnter your choice (1-3): ")
     while user_input != "3":
         if user_input == "1":
-            print("Test case 1: Run safe test:\nExpected: System is in a safe state. Safe Sequence: [1, 3, 4, 0, 2]")
             print(b.safety_check())
 
         elif user_input == "2":
